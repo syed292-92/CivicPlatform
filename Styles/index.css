@@ -1,5 +1,5 @@
 :root {
-    --magenta: rgb(88, 101, 242);
+    --myViolet: rgb(88, 101, 242);
     --dark: rgb(49, 51, 56);
     --backGround: rgb(30, 31, 34);
 }
@@ -52,6 +52,10 @@ body {
     border-radius: 12px;
     
     text-align: center;
-    
+
     cursor: pointer;
+}
+
+.profile-Div.active{
+    border-color: var(--myViolet);
 }
