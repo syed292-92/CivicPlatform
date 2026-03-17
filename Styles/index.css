@@ -1,7 +1,7 @@
 :root {
-    --magenta: #5865F2;
-    --dark: #313338;
-    --backGround: #1e1f22;
+    --magenta: rgb(88, 101, 242);
+    --dark: rgb(49, 51, 56);
+    --backGround: rgb(30, 31, 34);
 }
 
 body {
@@ -40,4 +40,18 @@ body {
     flex-wrap: wrap;
 
     justify-content: center;
+}
+
+.profile-Div{
+    width: 220px;
+
+    background: var(dark);
+    border: 2px solid rgba(0, 0, 0, 0);
+
+    padding: 20px;
+    border-radius: 12px;
+    
+    text-align: center;
+    
+    cursor: pointer;
 }
