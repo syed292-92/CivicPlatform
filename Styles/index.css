@@ -76,3 +76,8 @@ body {
     color: rgb(44, 62, 80);
     font-family: 'Indie Flower', cursive;
 }
+
+.drawingIMG-Div img{
+    height: 100%;
+    width: 99%;
+}
