@@ -18,6 +18,13 @@ body {
     align-items: center;
 }
 
+.profiles-Div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
 .header-Div{
     text-align: center;
     margin-bottom: 40px;
@@ -119,7 +126,7 @@ body {
 
     background: rgb(0, 64, 26);
     color: rgb(255, 255, 255);
-    
+
     direction: rtl;
 }
 
