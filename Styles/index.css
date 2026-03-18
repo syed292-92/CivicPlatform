@@ -45,15 +45,20 @@ body {
 .profile-Div{
     width: 220px;
 
-    background: var(dark);
-    border: 2px solid rgba(0, 0, 0, 0);
+    background: var(--dark);
 
+    border: 2px solid rgba(0, 0, 0, 0);
     padding: 20px;
     border-radius: 12px;
-    
-    text-align: center;
 
+    text-align: center;
     cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.profile-Div:hover {
+    background: rgb(58, 60, 65);
 }
 
 .profile-Div.active{
@@ -64,10 +69,14 @@ body {
 
 #displayArea-Div{
     width: 100%;
+
     max-width: 850px;
     min-height: 550px;
+
     border-radius: 15px;
+
     padding: 50px;
+
     transition: 0.5s;
 }
 
@@ -77,8 +86,55 @@ body {
     font-family: 'Indie Flower', cursive;
 }
 
+.drawingTitle-Div {
+    font-size: 32px;
+    margin-top: 0px;
+}
+
 .drawingIMG-Div img{
     height: 100%;
     width: 99%;
     border: 1px solid black;
 }
+
+.translation-Div{
+    direction: ltr;
+
+    font-size: 14px;
+
+    background: rgba(255, 255, 255, 0.1);
+
+    padding: 15px;
+    margin-top: 15px;
+    border-left: 4px solid rgb(255, 255, 255);
+}
+
+@keyframes fadeIn{
+    from{ opacity: 0; }
+    to{ opacity: 1; }
+}
+
+.pakistan-Div{
+    font-family: 'Noto Sans Arabic', sans-serif;
+
+    background: rgb(0, 64, 26);
+    color: rgb(255, 255, 255);
+    
+    direction: rtl;
+}
+
+.china-Div{
+    background-color: rgb(244, 247, 246);
+    color: rgb(45, 52, 54);
+    border-top: 10px solid rgb(214, 48, 49);
+}
+
+.contentBox-Div{
+    display: none;
+}
+
+.contentBox-Div.active{
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
