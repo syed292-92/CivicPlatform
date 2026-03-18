@@ -10,6 +10,10 @@ function showProfile(profileType, element){
     
     // 4. Show intended file
     document.getElementById(profileType + 'Content-Div').classList.add('active');
+    
+    // 5. Remove the themes of all files
     let displayArea = document.getElementById('displayArea-Div');
+    displayArea.classList.remove('kid-Div', 'pakistan-Div', 'china-Div');
+    // 6. Display the theme of intended file
     displayArea.className = profileType + '-Div';
 }
