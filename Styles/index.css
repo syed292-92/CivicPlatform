@@ -145,3 +145,24 @@ body {
     animation: fadeIn 0.5s;
 }
 
+.animation-Div {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgb(43, 45, 49); /* Slightly lighter than your background */
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+}
+
+.animationTitle-H3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--myViolet);
+}
+
+.video-Video {
+    width: 100%;
+    max-width: 600px; /* Keeps it from getting too huge */
+    border-radius: 4px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
