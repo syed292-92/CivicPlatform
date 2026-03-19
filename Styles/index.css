@@ -71,7 +71,6 @@ body {
 .profile-Div.active{
     border-color: var(--myViolet);
     background: rgb(64, 66, 73);
-    box-shadow: 0px 0px 20px rgba(99, 101, 242, 0.4);
 }
 
 #displayArea-Div{
@@ -128,6 +127,10 @@ body {
     color: rgb(255, 255, 255);
 
     direction: rtl;
+}
+
+.pakistanTitle-H2{
+    text-decoration: underline;
 }
 
 .china-Div{
